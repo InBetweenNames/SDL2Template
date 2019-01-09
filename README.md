@@ -14,20 +14,11 @@ The following header files and precompiled static libraries are included:
 Only Visual Studio 2017 with the `v141` toolchain is supported at this time.
 If this is a problem, just let me know by either creating an issue or sending me an email.
 
-Linux users
+Linux, Mac, Cygwin, MSYS2, Git-for-Windows SDK users
 ---
 
-It's very easy to get started with SDL2 on most linux distributions.  Just ensure you have the following
-libraries installed with their header files (usually requires a `-dev` package):
-
-* SDL2
-* SDL2_ttf
-
-On Debian based systems, the packages will probably be called `libsdl2-dev` and `libsdl2-ttf-dev`.
-On Arch Linux, look for the packages `sdl2` and `sdl2_ttf`.
-If you need help, just send me an email.
-
-Once you've installed these packages, you'll be all set to start your first assignment.
+See my other repository for a CMake version of this repository that uses dynamic linking instead:
+[SDL2TemplateCMake](https://github.com/InBetweenNames/SDL2TemplateCMake)
 
 Windows users
 ---
