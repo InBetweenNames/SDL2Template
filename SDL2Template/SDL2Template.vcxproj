@@ -98,6 +98,9 @@
   <ItemGroup>
     <Natvis Include="..\Eigen\debug\msvc\eigen.natvis" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.clang-format" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

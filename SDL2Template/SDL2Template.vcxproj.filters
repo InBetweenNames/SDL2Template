@@ -22,4 +22,7 @@
   <ItemGroup>
     <Natvis Include="..\Eigen\debug\msvc\eigen.natvis" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.clang-format" />
+  </ItemGroup>
 </Project>
