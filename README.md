@@ -67,7 +67,6 @@ don't ignore them!
 
 When we get to the more mathy parts of the course, if you have a good handle on C++, consider using
 [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page) for your Linear Algebra needs.
-It's not included in the template yet, but if there's demand I'll put it in.
 
 Extra goodies:
 ---
