@@ -19,4 +19,10 @@
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.clang-format" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="..\Eigen\msvc\eigen.natvis" />
+  </ItemGroup>
 </Project>
