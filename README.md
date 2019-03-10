@@ -1,6 +1,25 @@
 UWindsor COMP-3520 SDL2 Project Template
 ===
 
+Floordemo branch
+---
+
+This branch contains source code for some 2.5D rendering functions written
+for software rendering.  The code needs a bit of cleaning up, but otherwise
+should work fine.  Pull requests are welcome to improve the code.
+It will be kept in parity with the `floordemo` branch in SDL2TemplateCMake.
+
+The code is written in mostly C such that students without a C++ background
+can more easily understand it.  There are some parts that need to be overhauled,
+like the conversion from floating point coordinates to integer coordinates.
+However, the basic ideas should be evident.  In class, we'll discuss how
+this would have been implemented using fixed-point arithmetic.
+
+A live demo compiled using Emscripten and WebAssembly is available [here](https://inbetweennames.github.io/SDL2TemplateCMake/)
+
+Introduction
+---
+
 This template is intended for students in the COMP-3520 Introduction to Computer Graphics course
 at the University of Windsor, however it should serve as a useful template for anyone interested in
 getting started with the [SDL2](http://libsdl.org/) library quickly on Windows using Visual Studio.
@@ -48,7 +67,6 @@ don't ignore them!
 
 When we get to the more mathy parts of the course, if you have a good handle on C++, consider using
 [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page) for your Linear Algebra needs.
-It's not included in the template yet, but if there's demand I'll put it in.
 
 Extra goodies:
 ---
